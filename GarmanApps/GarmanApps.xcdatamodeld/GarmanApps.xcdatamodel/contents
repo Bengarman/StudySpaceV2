@@ -1,4 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Homework" representedClassName="Homework" syncable="YES" codeGenerationType="class">
+        <attribute name="accDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="creationDate" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="description1" optional="YES" attributeType="String"/>
+        <attribute name="recordID" optional="YES" attributeType="String"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <attribute name="task" optional="YES" attributeType="String"/>
+        <attribute name="urgency" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Lessons" representedClassName="Lessons" syncable="YES" codeGenerationType="class">
+        <attribute name="dayOfWeek" optional="YES" attributeType="String"/>
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="period" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <attribute name="startTimeDate" optional="YES" attributeType="String"/>
+        <attribute name="teacherName" optional="YES" attributeType="String"/>
+        <attribute name="weekNumber" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Notes" representedClassName="Notes" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="description1" optional="YES" attributeType="String"/>
+        <attribute name="picture" optional="YES" attributeType="Binary"/>
+        <attribute name="recordID" optional="YES" attributeType="String"/>
+        <attribute name="subject" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Teachers" representedClassName="Teachers" syncable="YES" codeGenerationType="class">
+        <attribute name="teacherIconName" optional="YES" attributeType="String"/>
+        <attribute name="teacherName" optional="YES" attributeType="String"/>
+        <attribute name="teacherRoom" optional="YES" attributeType="String"/>
+        <attribute name="teacherSubject" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Homework" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="Lessons" positionX="-54" positionY="-9" width="128" height="134"/>
+        <element name="Teachers" positionX="-36" positionY="9" width="128" height="89"/>
+        <element name="Notes" positionX="-18" positionY="27" width="128" height="119"/>
+    </elements>
 </model>

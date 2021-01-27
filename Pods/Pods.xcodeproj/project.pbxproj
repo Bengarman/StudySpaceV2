@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE3F1E96F5B3121FF0809EFCC3974EE /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12FEABF4AB64920832A43BB2BC363E5 /* iOSDropDown.swift */; };
+		1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17FA80CF4F2EC6D9E3F319B96AE93B /* FoldingCell-dummy.m */; };
+		2A657CCDAD302C48E778BA51BCDE3B3E /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88858A569876131C13D1689EC9BD90C8 /* TTSegmentedControl.swift */; };
+		2EC66072112BC478F5FAFA41FD32945A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		3F5F62E4A8C0F6A00377445394BC7863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		4D5D3187E60FD6E892F42D74EACF40CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6EA09F10867067F74CB3A5965E7C2CD7 /* TTSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB92443413D3466DC7BD2C1C77D45369 /* TTSegmentedControl-dummy.m */; };
+		7FF24E020A4F08B551CBDA1EFAE66E69 /* Pods-GarmanApps-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B86410968113FFF78724AD73646951 /* Pods-GarmanApps-dummy.m */; };
+		957EC37EDE8F3FAE030F125FAC7A3357 /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB29AE30E8781BBE78336A44B7B8CB1 /* iOSDropDown-dummy.m */; };
+		A0ADE295C4A2A14692D9335A65CEA8DE /* TTSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C7CE6A904B15697E32669CB26AE7E3 /* TTSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8AA194C8FADFBA661C609F31712EF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		ABFA16F448CBB43403717BAE900BAEE2 /* Pods-GarmanApps-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B7D48AAC8B33D549F411C5026C554A /* Pods-GarmanApps-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A84FEFEAA2E1146D456387B427C688 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 327CF704A716D3BA46E0CDAE25A8E078 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B5CA66B4B7946451689ED6A41E8BFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566A3C8BF5DC9D7D2F705D06BB2E25CD /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B1953E5558EB6F03EB37D6B55D6295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		F49A6EEDCA1094D7B69DC165A55FD77C /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F58497D19CDD262D62DC1B7B6A7EEA /* FoldingCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141D915958E80404E741A65708C711EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41BB5718C7A58683C2A2D0629695108;
+			remoteInfo = TTSegmentedControl;
+		};
+		6C7DE782195148C4CC53D98252DD81AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B626E472969D6F87698AF0041EAAFC38;
+			remoteInfo = FoldingCell;
+		};
+		7E737B0E3610646286C3572C5B546872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0397BF5CFC2303592BFD85F38F2D6CC6;
+			remoteInfo = iOSDropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F07D4BEB59460D534A5DB7BABB8759 /* Pods-GarmanApps-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GarmanApps-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A0FDD2AE7A3930F2974DD803AF4FF2C /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
+		0E197AB8AEA591CD1BF1289F79F230B5 /* Pods-GarmanApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GarmanApps.release.xcconfig"; sourceTree = "<group>"; };
+		18EBA3376DA855855B4E7286A1DC6F7E /* iOSDropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.xcconfig; sourceTree = "<group>"; };
+		263D03330F1A9048B9A59DCD5EDA71D3 /* Pods-GarmanApps-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GarmanApps-frameworks.sh"; sourceTree = "<group>"; };
+		2771E6F5056E14648CAD42FBACE6CE47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327CF704A716D3BA46E0CDAE25A8E078 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		3C17FA80CF4F2EC6D9E3F319B96AE93B /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
+		413C7A3FE33B33B37FCCA28CFA9F30C1 /* Pods-GarmanApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GarmanApps.debug.xcconfig"; sourceTree = "<group>"; };
+		42450E2117CC531BC10B3C4FB4CB3F8C /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
+		433047C50378A972D647A06AFC642516 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B7D48AAC8B33D549F411C5026C554A /* Pods-GarmanApps-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GarmanApps-umbrella.h"; sourceTree = "<group>"; };
+		4CC481D08F3A2C8CB89C38B5118540E8 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		55B86410968113FFF78724AD73646951 /* Pods-GarmanApps-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GarmanApps-dummy.m"; sourceTree = "<group>"; };
+		566A3C8BF5DC9D7D2F705D06BB2E25CD /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
+		7298DF7A485096A55B1CAB42470DD1C0 /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
+		765405738784C41DDE34551BC3D0F409 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852E709CA47EB3C369F031733866F59C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88858A569876131C13D1689EC9BD90C8 /* TTSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TTSegmentedControl.swift; path = TTSegmentedControl/TTSegmentedControl.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F340AC753AAFC7B5939252FC1F36F6 /* Pods-GarmanApps.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GarmanApps.modulemap"; sourceTree = "<group>"; };
+		A07C825F487C60CCDD00C83BFBDE4878 /* Pods-GarmanApps-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GarmanApps-acknowledgements.plist"; sourceTree = "<group>"; };
+		A1C7CE6A904B15697E32669CB26AE7E3 /* TTSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		A3E56F5AC8582F04B7FF24533E00EC93 /* Pods-GarmanApps-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GarmanApps-resources.sh"; sourceTree = "<group>"; };
+		A47DA58E402E35CE388F168FE6FE28DD /* TTSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		AB1C84DF3085E9AC8BFD466FD41B5389 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAA366DD72FB51F044CB3035D7B33676 /* TTSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4E76F048CBF1681E2D33DBD2E8AE8E /* TTSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTSegmentedControl.modulemap; sourceTree = "<group>"; };
+		CF2C327F62C0509150B3258EAF29449C /* Pods_GarmanApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GarmanApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12FEABF4AB64920832A43BB2BC363E5 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		D2E88B0AD52CFE5E6B8451CA24AA03E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F58497D19CDD262D62DC1B7B6A7EEA /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		EB92443413D3466DC7BD2C1C77D45369 /* TTSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		EDB29AE30E8781BBE78336A44B7B8CB1 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		F944C2A981BE2E0B1C0D79552B32B764 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		FC55DA95F4EBD21E20889550A0AB309C /* TTSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D456D188322507DB166C01CBB3D543E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5D3187E60FD6E892F42D74EACF40CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E91BA6EBF4619E1F664DD6BC0710C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B1953E5558EB6F03EB37D6B55D6295 /* Foundation.framework in Frameworks */,
+				B9B5CA66B4B7946451689ED6A41E8BFA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DB7D0D56107AEB73B9C575B53DA46F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AA194C8FADFBA661C609F31712EF89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E24CADFBCC53ED10824F5EAA112383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5F62E4A8C0F6A00377445394BC7863 /* Foundation.framework in Frameworks */,
+				2EC66072112BC478F5FAFA41FD32945A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C41DD79B1F0B017ECE9D781C16F0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765405738784C41DDE34551BC3D0F409 /* FoldingCell.framework */,
+				AB1C84DF3085E9AC8BFD466FD41B5389 /* iOSDropDown.framework */,
+				CF2C327F62C0509150B3258EAF29449C /* Pods_GarmanApps.framework */,
+				CAA366DD72FB51F044CB3035D7B33676 /* TTSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EAACC3EED67F30F9B1933DE98543836 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CA1A417B3B0FE31BA75941ECB30F404 /* Pods-GarmanApps */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1CA1A417B3B0FE31BA75941ECB30F404 /* Pods-GarmanApps */ = {
+			isa = PBXGroup;
+			children = (
+				852E709CA47EB3C369F031733866F59C /* Info.plist */,
+				94F340AC753AAFC7B5939252FC1F36F6 /* Pods-GarmanApps.modulemap */,
+				09F07D4BEB59460D534A5DB7BABB8759 /* Pods-GarmanApps-acknowledgements.markdown */,
+				A07C825F487C60CCDD00C83BFBDE4878 /* Pods-GarmanApps-acknowledgements.plist */,
+				55B86410968113FFF78724AD73646951 /* Pods-GarmanApps-dummy.m */,
+				263D03330F1A9048B9A59DCD5EDA71D3 /* Pods-GarmanApps-frameworks.sh */,
+				A3E56F5AC8582F04B7FF24533E00EC93 /* Pods-GarmanApps-resources.sh */,
+				46B7D48AAC8B33D549F411C5026C554A /* Pods-GarmanApps-umbrella.h */,
+				413C7A3FE33B33B37FCCA28CFA9F30C1 /* Pods-GarmanApps.debug.xcconfig */,
+				0E197AB8AEA591CD1BF1289F79F230B5 /* Pods-GarmanApps.release.xcconfig */,
+			);
+			name = "Pods-GarmanApps";
+			path = "Target Support Files/Pods-GarmanApps";
+			sourceTree = "<group>";
+		};
+		2C99B8412A7C9282EFA2E9718336D01B /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D12FEABF4AB64920832A43BB2BC363E5 /* iOSDropDown.swift */,
+				BAA1248CFD16071038868D73E2B8EEFE /* Support Files */,
+			);
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46626A7DD5A699F0FA188673D61CFDB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42450E2117CC531BC10B3C4FB4CB3F8C /* FoldingCell.modulemap */,
+				7298DF7A485096A55B1CAB42470DD1C0 /* FoldingCell.xcconfig */,
+				3C17FA80CF4F2EC6D9E3F319B96AE93B /* FoldingCell-dummy.m */,
+				0A0FDD2AE7A3930F2974DD803AF4FF2C /* FoldingCell-prefix.pch */,
+				566A3C8BF5DC9D7D2F705D06BB2E25CD /* FoldingCell-umbrella.h */,
+				2771E6F5056E14648CAD42FBACE6CE47 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingCell";
+			sourceTree = "<group>";
+		};
+		46BB84A1C32BEF96137EF3F8ED3D9EE7 /* TTSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				88858A569876131C13D1689EC9BD90C8 /* TTSegmentedControl.swift */,
+				92E84EE9A6206E6D323C5A36EA8EFE44 /* Support Files */,
+			);
+			path = TTSegmentedControl;
+			sourceTree = "<group>";
+		};
+		4BD85AC2C85972174C5E30E9E4190393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BC3DC834E4E43C7F27CD875946AE7 /* FoldingCell */,
+				2C99B8412A7C9282EFA2E9718336D01B /* iOSDropDown */,
+				46BB84A1C32BEF96137EF3F8ED3D9EE7 /* TTSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4BD85AC2C85972174C5E30E9E4190393 /* Pods */,
+				08C41DD79B1F0B017ECE9D781C16F0F7 /* Products */,
+				0EAACC3EED67F30F9B1933DE98543836 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92E84EE9A6206E6D323C5A36EA8EFE44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433047C50378A972D647A06AFC642516 /* Info.plist */,
+				CC4E76F048CBF1681E2D33DBD2E8AE8E /* TTSegmentedControl.modulemap */,
+				A47DA58E402E35CE388F168FE6FE28DD /* TTSegmentedControl.xcconfig */,
+				EB92443413D3466DC7BD2C1C77D45369 /* TTSegmentedControl-dummy.m */,
+				FC55DA95F4EBD21E20889550A0AB309C /* TTSegmentedControl-prefix.pch */,
+				A1C7CE6A904B15697E32669CB26AE7E3 /* TTSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTSegmentedControl";
+			sourceTree = "<group>";
+		};
+		9F5BC3DC834E4E43C7F27CD875946AE7 /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				E8F58497D19CDD262D62DC1B7B6A7EEA /* FoldingCell.swift */,
+				46626A7DD5A699F0FA188673D61CFDB3 /* Support Files */,
+			);
+			path = FoldingCell;
+			sourceTree = "<group>";
+		};
+		BAA1248CFD16071038868D73E2B8EEFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E88B0AD52CFE5E6B8451CA24AA03E6 /* Info.plist */,
+				F944C2A981BE2E0B1C0D79552B32B764 /* iOSDropDown.modulemap */,
+				18EBA3376DA855855B4E7286A1DC6F7E /* iOSDropDown.xcconfig */,
+				EDB29AE30E8781BBE78336A44B7B8CB1 /* iOSDropDown-dummy.m */,
+				4CC481D08F3A2C8CB89C38B5118540E8 /* iOSDropDown-prefix.pch */,
+				327CF704A716D3BA46E0CDAE25A8E078 /* iOSDropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03D70742AABB3E77716A25B21D8C7400 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A84FEFEAA2E1146D456387B427C688 /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E83AA2863A3C2FC631159082AB30798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ADE295C4A2A14692D9335A65CEA8DE /* TTSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A906C5C02E549F9F8692CE0A56F43B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA04E3BDB1CD6EFDDC87C81EF8ED9535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFA16F448CBB43403717BAE900BAEE2 /* Pods-GarmanApps-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0397BF5CFC2303592BFD85F38F2D6CC6 /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8FF6FAF276007612A52DE89197BB1F /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				5E8D4D8674A527734D38B9291494E4DC /* Sources */,
+				69E24CADFBCC53ED10824F5EAA112383 /* Frameworks */,
+				03D70742AABB3E77716A25B21D8C7400 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = AB1C84DF3085E9AC8BFD466FD41B5389 /* iOSDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		324D31763400CA679074AD4B7B4CD80D /* Pods-GarmanApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F96A6AD218ACDD41201FA7F16033F35 /* Build configuration list for PBXNativeTarget "Pods-GarmanApps" */;
+			buildPhases = (
+				36F940C971FA98E7F57102D0D4D0F2E2 /* Sources */,
+				0D456D188322507DB166C01CBB3D543E /* Frameworks */,
+				BA04E3BDB1CD6EFDDC87C81EF8ED9535 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6AB9B388A05BD56FC8C3E8F71FA775 /* PBXTargetDependency */,
+				D08A84EBCD4D0F6EE203D6CFAEA28CD7 /* PBXTargetDependency */,
+				B925302FCEC65B0B1843741DD69348F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GarmanApps";
+			productName = "Pods-GarmanApps";
+			productReference = CF2C327F62C0509150B3258EAF29449C /* Pods_GarmanApps.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E52972EF33CE3CB7D4D997DA9EA71A /* Build configuration list for PBXNativeTarget "FoldingCell" */;
+			buildPhases = (
+				C7CB2C7035BBEB0B87DC77599F23895D /* Sources */,
+				4DB7D0D56107AEB73B9C575B53DA46F5 /* Frameworks */,
+				21A906C5C02E549F9F8692CE0A56F43B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingCell;
+			productName = FoldingCell;
+			productReference = 765405738784C41DDE34551BC3D0F409 /* FoldingCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C41BB5718C7A58683C2A2D0629695108 /* TTSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36204258F94E15F3742540347D8A356B /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */;
+			buildPhases = (
+				177E7261AD87E98B348CC86D9ECB0C87 /* Sources */,
+				0E91BA6EBF4619E1F664DD6BC0710C6C /* Frameworks */,
+				0E83AA2863A3C2FC631159082AB30798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSegmentedControl;
+			productName = TTSegmentedControl;
+			productReference = CAA366DD72FB51F044CB3035D7B33676 /* TTSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 08C41DD79B1F0B017ECE9D781C16F0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */,
+				0397BF5CFC2303592BFD85F38F2D6CC6 /* iOSDropDown */,
+				324D31763400CA679074AD4B7B4CD80D /* Pods-GarmanApps */,
+				C41BB5718C7A58683C2A2D0629695108 /* TTSegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177E7261AD87E98B348CC86D9ECB0C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA09F10867067F74CB3A5965E7C2CD7 /* TTSegmentedControl-dummy.m in Sources */,
+				2A657CCDAD302C48E778BA51BCDE3B3E /* TTSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F940C971FA98E7F57102D0D4D0F2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF24E020A4F08B551CBDA1EFAE66E69 /* Pods-GarmanApps-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8D4D8674A527734D38B9291494E4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957EC37EDE8F3FAE030F125FAC7A3357 /* iOSDropDown-dummy.m in Sources */,
+				0CE3F1E96F5B3121FF0809EFCC3974EE /* iOSDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CB2C7035BBEB0B87DC77599F23895D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */,
+				F49A6EEDCA1094D7B69DC165A55FD77C /* FoldingCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B925302FCEC65B0B1843741DD69348F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 0397BF5CFC2303592BFD85F38F2D6CC6 /* iOSDropDown */;
+			targetProxy = 7E737B0E3610646286C3572C5B546872 /* PBXContainerItemProxy */;
+		};
+		D08A84EBCD4D0F6EE203D6CFAEA28CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSegmentedControl;
+			target = C41BB5718C7A58683C2A2D0629695108 /* TTSegmentedControl */;
+			targetProxy = 141D915958E80404E741A65708C711EE /* PBXContainerItemProxy */;
+		};
+		EE6AB9B388A05BD56FC8C3E8F71FA775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingCell;
+			target = B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */;
+			targetProxy = 6C7DE782195148C4CC53D98252DD81AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027E1CABCBC0BDF5EF2ABED9E37239C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E197AB8AEA591CD1BF1289F79F230B5 /* Pods-GarmanApps.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GarmanApps/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GarmanApps/Pods-GarmanApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1CC9A2779279A313B7E4E0BD6B06EE74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7298DF7A485096A55B1CAB42470DD1C0 /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_MODULE_NAME = FoldingCell;
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		324CC8FD77E208BEE23BC4AD2379377C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47DA58E402E35CE388F168FE6FE28DD /* TTSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = TTSegmentedControl;
+				PRODUCT_NAME = TTSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77C957AE46F37E4B5DC241A91304A179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7298DF7A485096A55B1CAB42470DD1C0 /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_MODULE_NAME = FoldingCell;
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		960E732C6152055674A6DFC290929745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47DA58E402E35CE388F168FE6FE28DD /* TTSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				PRODUCT_MODULE_NAME = TTSegmentedControl;
+				PRODUCT_NAME = TTSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98AA9005A806BDD6F2A7E984F58FFCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 413C7A3FE33B33B37FCCA28CFA9F30C1 /* Pods-GarmanApps.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GarmanApps/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GarmanApps/Pods-GarmanApps.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA50106251D9936602C05BEBDACA9BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EBA3376DA855855B4E7286A1DC6F7E /* iOSDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F91F4F17F0305222B5A06EAB40A18205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EBA3376DA855855B4E7286A1DC6F7E /* iOSDropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8FF6FAF276007612A52DE89197BB1F /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA50106251D9936602C05BEBDACA9BA1 /* Debug */,
+				F91F4F17F0305222B5A06EAB40A18205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36204258F94E15F3742540347D8A356B /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324CC8FD77E208BEE23BC4AD2379377C /* Debug */,
+				960E732C6152055674A6DFC290929745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F96A6AD218ACDD41201FA7F16033F35 /* Build configuration list for PBXNativeTarget "Pods-GarmanApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AA9005A806BDD6F2A7E984F58FFCB8 /* Debug */,
+				027E1CABCBC0BDF5EF2ABED9E37239C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E52972EF33CE3CB7D4D997DA9EA71A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77C957AE46F37E4B5DC241A91304A179 /* Debug */,
+				1CC9A2779279A313B7E4E0BD6B06EE74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

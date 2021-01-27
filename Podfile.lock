@@ -1,0 +1,24 @@
+PODS:
+  - FoldingCell (4.0.2)
+  - iOSDropDown (0.2.7)
+  - TTSegmentedControl (0.4.7)
+
+DEPENDENCIES:
+  - FoldingCell
+  - iOSDropDown
+  - TTSegmentedControl (~> 0.4.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FoldingCell
+    - iOSDropDown
+    - TTSegmentedControl
+
+SPEC CHECKSUMS:
+  FoldingCell: 352f0211a53f957b885a1b37d5ffa875da90bca5
+  iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+  TTSegmentedControl: 422a8fab507a02a60050476d69d577052550f592
+
+PODFILE CHECKSUM: 9fc766cf5235deedddb33c35a4d59a05abf53b80
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "weekDayPeriodSaturday.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "weekDayPeriodSaturday@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "weekDayPeriodSaturday@3x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "silver-ux"
+  }
+}
